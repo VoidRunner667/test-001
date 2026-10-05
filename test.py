@@ -1,0 +1,2 @@
+# komentar
+print ("cusss")
