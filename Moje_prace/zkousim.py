@@ -10,3 +10,11 @@ SPRAVNE_HESLO = "heslo123"
 
 # Počítadlo pokusů
 pokusy = 3
+
+while pokusy > 0:
+    uzivatelske_jmeno = input ("Zadej uživatelské jméno: ")
+    heslo = input("Zadej heslo: ")
+
+    if uzivatelske_jmeno == SPRAVNE_JMENO and heslo == SPRAVNE_HESLO:
+        print("Přihlášení úspěšné!")
+        break
