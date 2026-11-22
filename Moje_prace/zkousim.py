@@ -21,3 +21,6 @@ while pokusy > 0:
     else:
         pokusy -= 1
         print(f"Neplatné přihlašovací údaje. Zbývá pokusů: {pokusy}")
+
+if pokusy == 0:
+    print("Přístup odepřen. Vyčerpal/a jsi všechny pokusy.")
