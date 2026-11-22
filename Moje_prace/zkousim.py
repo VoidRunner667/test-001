@@ -18,3 +18,6 @@ while pokusy > 0:
     if uzivatelske_jmeno == SPRAVNE_JMENO and heslo == SPRAVNE_HESLO:
         print("Přihlášení úspěšné!")
         break
+    else:
+        pokusy -= 1
+        print(f"Neplatné přihlašovací údaje. Zbývá pokusů: {pokusy}")
